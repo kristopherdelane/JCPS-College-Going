@@ -180,8 +180,8 @@ var g = wrapper.selectAll("g.group")
 	.on("mouseout", fade(opacityDefault));
 
 g.append("path")
-	.style("stroke", function(d,i) { return (Names[i] === "" ? "none" : "#800000"); })
-	.style("fill", function(d,i) { return (Names[i] === "" ? "none" : "#800000"); })
+	.style("stroke", function(d,i) { return (Names[i] === "" ? "none" : "#990000"); })
+	.style("fill", function(d,i) { return (Names[i] === "" ? "none" : "#990000"); })
 //	.style("stroke", function(d,i) { return (Names[i] === "" ? "none" : "#00A1DE"); })
 //	.style("fill", function(d,i) { return (Names[i] === "" ? "none" : "#00A1DE"); })
 	.style("pointer-events", function(d,i) { return (Names[i] === "" ? "none" : "auto"); })
