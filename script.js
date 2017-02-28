@@ -93,10 +93,12 @@ linearGradient.append("stop")
 	.attr("stop-color","#E8E8E8");
 linearGradient.append("stop")
 	.attr("offset","45%")
-	.attr("stop-color","#A3A3A3");
+	.attr("stop-color","#990000");
+//	.attr("stop-color","#A3A3A3");
 linearGradient.append("stop")
 	.attr("offset","55%")
-	.attr("stop-color","#A3A3A3");
+	.attr("stop-color","#990000");
+//	.attr("stop-color","#A3A3A3"); 
 linearGradient.append("stop")
 	.attr("offset","95%")
 	.attr("stop-color","#E8E8E8");
